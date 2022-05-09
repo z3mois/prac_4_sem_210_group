@@ -1,0 +1,7 @@
+program
+{
+	string a = "abcd", b = "12345";
+	int c = 1; 
+	write (a + b); /*sadsda */
+	read(b);
+}

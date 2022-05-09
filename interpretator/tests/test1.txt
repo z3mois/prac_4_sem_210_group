@@ -1,0 +1,9 @@
+program
+{
+	string c = "fgfgfgffg";
+	int a = 10;
+	a = -6;
+	write(a);
+	write(c);
+	
+}

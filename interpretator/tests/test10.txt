@@ -1,0 +1,14 @@
+program
+{
+    struct A {
+        int c;
+        int g;
+    };
+    A b;
+    int d = 11;
+    b.c = 10;
+    b.g = 11;
+    write(b.c);
+    write(b.g);
+   
+}

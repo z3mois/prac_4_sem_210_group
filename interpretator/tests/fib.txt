@@ -1,0 +1,24 @@
+program
+{
+	int n, i = 0, fibsum = 0, fib1 = 1, fib2 = 1; 
+	write("Calculating Fibonacci number");
+	write("Enter number n: ");
+	read(n);
+	while (i < n + -2)
+	{
+		fibsum = fib1 + fib2;
+		fib1 = fib2;
+		fib2 = fibsum;
+		i = i + 1;
+	}
+	write("Answer: "); 
+	
+	if (n <= 2) 
+	{
+		write(fib1);
+	}
+	else 
+	{
+		write(fib2);
+	}
+}

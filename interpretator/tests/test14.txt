@@ -1,0 +1,8 @@
+program
+{
+    int j = 3;
+    while (j < 5){
+        write("a");
+        break;
+    }
+}

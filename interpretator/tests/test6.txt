@@ -1,0 +1,7 @@
+program
+{
+	int a = 10, b = 5;
+	a = a + b / 3 - 2 * 2;
+	write(a);
+	write(b);
+}

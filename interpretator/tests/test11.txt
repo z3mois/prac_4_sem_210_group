@@ -1,0 +1,8 @@
+program
+{
+    int i = 3;
+    int c = 3;
+    while (i = i - 1) {
+        c = c -1;
+    }
+}

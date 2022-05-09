@@ -1,0 +1,11 @@
+program
+{
+    int i = 0;
+    int j = 0;
+    if (0==false) {
+        write(1);
+    }
+    else {
+        write(0);
+    }
+}

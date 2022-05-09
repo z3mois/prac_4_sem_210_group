@@ -1,0 +1,20 @@
+program
+{
+	int n1;
+	int res; 
+	int j = 0;
+	while(j <= 3){
+		res = 1;
+		write("Вычисление факториала");
+		write("Введите n1: ");
+		read(n1);
+		while(n1 > 0)
+		{
+			res = res * n1;
+			n1 = n1 -1;
+		}
+		write("Ответ: ");
+		write(res);
+		j = j +  1;
+	}
+}

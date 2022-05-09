@@ -1,0 +1,10 @@
+program
+{
+	int a, b;
+	string c;
+	boolean d;
+	read(b);
+	c = "fgfgfgfgf" + (c = "erererer");
+	5 = (a = 4);
+	d = (d = true);
+}

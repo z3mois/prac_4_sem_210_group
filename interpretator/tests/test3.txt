@@ -1,0 +1,27 @@
+program
+{
+	bool a = true, b = false;
+	int c = 9, d = 0;
+	while(a){
+		a = false;
+		write(a);
+	};
+	write (c + d);
+	if (not(a and b)) 
+	{
+		write("trttrtrtr");	
+		write(c);
+	} 
+	else 
+	{
+		write("yyyyyyyy");	
+		write(c);
+		write(d);
+	}
+	while (a and b) 
+	{
+		a = true;
+		write("ab");
+		write("rrr");
+	}
+}

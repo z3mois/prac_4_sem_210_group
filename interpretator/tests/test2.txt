@@ -1,0 +1,17 @@
+program
+{
+	bool c = true;
+	int a = 6;
+	int b = 10;
+	int i;
+	string e = "Hellow", d = "world!";
+	int r = 5;
+	if (c) {
+		write(a * b);
+	}
+	else 
+		write(d);
+	for(i = 0; i < 2; i= i + 1)
+		write(i);
+	write("asd");
+}

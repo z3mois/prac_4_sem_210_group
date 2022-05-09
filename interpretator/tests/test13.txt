@@ -1,0 +1,21 @@
+program
+{
+    struct B {
+        int b;
+    };
+    struct A{
+        int a;
+    };
+    A d;
+    B c;
+    A f;
+    /* adadd 
+    add */
+    int s =          0;
+    int j = 0;
+    d.a = 10;
+    c.b = 11;
+    f.a = 11;
+    d = f;
+    /*s = j + "3"; */
+}
